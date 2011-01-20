@@ -1,0 +1,28 @@
+---
+abstract: 'A glimpse at an Enlightened Perl (web crawling).'
+author:
+  - 'Chris Prather <chris@prather.org>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 1.00'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Task-Kensho-WebCrawling
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Bundle::LWP: 0
+  HTTP::Lite: 0
+  LWP::Simple: 0
+  WWW::Mechanize: 0
+  WWW::Mechanize::TreeBuilder: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.27
