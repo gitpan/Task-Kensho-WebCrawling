@@ -19,9 +19,9 @@ no_index:
     - t
     - inc
 requires:
-  Bundle::LWP: 0
   HTTP::Lite: 0
   LWP::Simple: 0
+  LWP::UserAgent: 0
   WWW::Mechanize: 0
   WWW::Mechanize::TreeBuilder: 0
-version: 0.27
+version: 0.28
