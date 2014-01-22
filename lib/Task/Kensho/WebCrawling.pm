@@ -4,8 +4,8 @@ package Task::Kensho::WebCrawling;
 BEGIN {
   $Task::Kensho::WebCrawling::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34002-TRIAL-25-gd2fdf31
-$Task::Kensho::WebCrawling::VERSION = '0.34003'; # TRIAL
+# git description: v0.34003-TRIAL-19-g03b9580
+$Task::Kensho::WebCrawling::VERSION = '0.34004'; # TRIAL
 # ABSTRACT: A Glimpse at an Enlightened Perl: Web Crawling
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::WebCrawling - A Glimpse at an Enlightened Perl: Web Crawling
 
 =head1 VERSION
 
-version 0.34003
+version 0.34004
 
 =head1 SYNOPSIS
 

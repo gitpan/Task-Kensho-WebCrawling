@@ -4,7 +4,7 @@ Task::Kensho::WebCrawling - A Glimpse at an Enlightened Perl: Web Crawling
 
 # VERSION
 
-version 0.34003
+version 0.34004
 
 # SYNOPSIS
 
