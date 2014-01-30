@@ -4,7 +4,7 @@ Task::Kensho::WebCrawling - A Glimpse at an Enlightened Perl: Web Crawling
 
 # VERSION
 
-version 0.34004
+version 0.35
 
 # SYNOPSIS
 
@@ -49,7 +49,11 @@ facilitates the ease and simplicity the distribution aims to achieve.
 
 ## [Task::Kensho::WebCrawling](https://metacpan.org/pod/Task::Kensho::WebCrawling): Web Crawling
 
-### [HTTP::Lite](https://metacpan.org/pod/HTTP::Lite)
+### [HTTP::Thin](https://metacpan.org/pod/HTTP::Thin)
+
+A Thin Wrapper around HTTP::Tiny to play nice with HTTP::Message
+
+### [HTTP::Tiny](https://metacpan.org/pod/HTTP::Tiny)
 
 Lightweight HTTP client implementation
 
@@ -78,12 +82,6 @@ regarding which modules you wish to install.
 The `cpanm` client requires interactive mode to be enabled for this to work:
 
     cpanm --interactive Task-Kensho
-
-# RELEASE SCHEDULE
-
-Starting with release 0.18, [Task::Kensho](https://metacpan.org/pod/Task::Kensho) was moved to a monthly release
-cycle. This will facilitate a consistent schedule for upstream vendors
-to track the changes in [Task::Kensho](https://metacpan.org/pod/Task::Kensho).
 
 # BUGS AND LIMITATIONS
 
