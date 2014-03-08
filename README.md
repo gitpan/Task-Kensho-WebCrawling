@@ -4,7 +4,7 @@ Task::Kensho::WebCrawling - A Glimpse at an Enlightened Perl: Web Crawling
 
 # VERSION
 
-version 0.35
+version 0.36
 
 # SYNOPSIS
 
@@ -20,7 +20,7 @@ From [http://en.wikipedia.org/wiki/Kensho](http://en.wikipedia.org/wiki/Kensho):
 > self."\[2\] It generally "refers to the realization of nonduality of
 > subject and object."\[3\]
 
-[Task::Kensho](https://metacpan.org/pod/Task::Kensho) is a first cut at building a list of recommended modules
+[Task::Kensho](https://metacpan.org/pod/Task::Kensho) is a list of recommended modules
 for Enlightened Perl development. CPAN is wonderful, but there are too
 many wheels and you have to pick and choose amongst the various
 competing technologies.
@@ -73,6 +73,10 @@ Handy web browsing in a Perl object
 
 This module combines WWW::Mechanize and HTML::TreeBuilder.
 
+### [WWW::Selenium](https://metacpan.org/pod/WWW::Selenium)
+
+Perl Client for the Selenium Remote Control test tool
+
 # INSTALLING
 
 Since version 0.34, [Task::Kensho](https://metacpan.org/pod/Task::Kensho) has made use of the `optional_features` field
@@ -81,7 +85,7 @@ regarding which modules you wish to install.
 
 The `cpanm` client requires interactive mode to be enabled for this to work:
 
-    cpanm --interactive Task-Kensho
+    cpanm --interactive Task::Kensho::WebCrawling
 
 # BUGS AND LIMITATIONS
 

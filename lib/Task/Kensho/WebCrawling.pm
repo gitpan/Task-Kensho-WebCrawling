@@ -4,8 +4,8 @@ package Task::Kensho::WebCrawling;
 BEGIN {
   $Task::Kensho::WebCrawling::AUTHORITY = 'cpan:PERIGRIN';
 }
-# git description: v0.34004-TRIAL-34-gf8b6d38
-$Task::Kensho::WebCrawling::VERSION = '0.35';
+# git description: v0.35-37-ge8142f4
+$Task::Kensho::WebCrawling::VERSION = '0.36';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Web Crawling
 
 __END__
@@ -20,7 +20,7 @@ Task::Kensho::WebCrawling - A Glimpse at an Enlightened Perl: Web Crawling
 
 =head1 VERSION
 
-version 0.35
+version 0.36
 
 =head1 SYNOPSIS
 
@@ -42,7 +42,7 @@ subject and object."[3]
 
 =back
 
-L<Task::Kensho> is a first cut at building a list of recommended modules
+L<Task::Kensho> is a list of recommended modules
 for Enlightened Perl development. CPAN is wonderful, but there are too
 many wheels and you have to pick and choose amongst the various
 competing technologies.
@@ -95,6 +95,10 @@ Handy web browsing in a Perl object
 
 This module combines WWW::Mechanize and HTML::TreeBuilder.
 
+=head3 L<WWW::Selenium>
+
+Perl Client for the Selenium Remote Control test tool
+
 =head1 INSTALLING
 
 Since version 0.34, L<Task::Kensho> has made use of the C<optional_features> field
@@ -103,7 +107,7 @@ regarding which modules you wish to install.
 
 The C<cpanm> client requires interactive mode to be enabled for this to work:
 
-    cpanm --interactive Task-Kensho
+    cpanm --interactive Task::Kensho::WebCrawling
 
 =head1 BUGS AND LIMITATIONS
 
