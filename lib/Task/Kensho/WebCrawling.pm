@@ -1,11 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::WebCrawling;
-BEGIN {
-  $Task::Kensho::WebCrawling::AUTHORITY = 'cpan:PERIGRIN';
-}
-# git description: v0.35-37-ge8142f4
-$Task::Kensho::WebCrawling::VERSION = '0.36';
+# git description: v0.36-34-gd6dd59c
+$Task::Kensho::WebCrawling::VERSION = '0.37';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Web Crawling
 
 __END__
@@ -20,7 +17,7 @@ Task::Kensho::WebCrawling - A Glimpse at an Enlightened Perl: Web Crawling
 
 =head1 VERSION
 
-version 0.36
+version 0.37
 
 =head1 SYNOPSIS
 
@@ -135,5 +132,25 @@ This software is copyright (c) 2008 by Chris Prather.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
+
+=head1 CONTRIBUTORS
+
+=for stopwords Karen Etheridge Leo Lapworth Chris Nehren
+
+=over 4
+
+=item *
+
+Karen Etheridge <ether@cpan.org>
+
+=item *
+
+Leo Lapworth <leo@cuckoo.org>
+
+=item *
+
+Chris Nehren <apeiron@cpan.org>
+
+=back
 
 =cut
