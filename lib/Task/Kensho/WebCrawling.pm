@@ -1,8 +1,8 @@
 use strict;
 use warnings;
 package Task::Kensho::WebCrawling;
-# git description: v0.36-34-gd6dd59c
-$Task::Kensho::WebCrawling::VERSION = '0.37';
+# git description: v0.37-36-g7a753c8
+$Task::Kensho::WebCrawling::VERSION = '0.38';
 # ABSTRACT: A Glimpse at an Enlightened Perl: Web Crawling
 
 __END__
@@ -17,7 +17,7 @@ Task::Kensho::WebCrawling - A Glimpse at an Enlightened Perl: Web Crawling
 
 =head1 VERSION
 
-version 0.37
+version 0.38
 
 =head1 SYNOPSIS
 
